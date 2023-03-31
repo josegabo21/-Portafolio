@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio | Jose Rivas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/sobreMi.css">
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor_menu">
+        <header>
+            <div class="logo">
+                <a href="#">Jose Rivas</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#hobbies" onclick="seleccionar()">HOBBIES</a></li>
+                    <li><a href="#formacion" onclick="seleccionar()">FORMACION</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav_responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido_inicio">
+            <div class="contenedor_img">
+                <img class="imagen_fotoPerfil" src="./imagenes/foto perfil.png" alt="Foto perfil">
+            </div>
+            <h1>Hola mi nombre es Jose Gabriel Rivas Gil y construyo paginas web</h1>
+            <p>Estudiante en Ing.Informatica, actualmente participando en el programa de Oracle One en Alura Latam</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Jose Gabriel Rivas Gil, tengo 21 años.</span> Soy una personas que ha tenido una trayectoria con los estudios sobre Ing.Informatica, apasionado con la tecnologia, el deporte y el interes en avanzar cada dia mas en lo que me gusta.</p>
+            <p>Llevando mi futuro como la tecnologia, cada dia evolucionando mas y mejorando en lo aprendido para algun dia ser un buen profesion en el area de programación.</p>
+
+        <button>
+            Descargar CURRICULUM <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+
+       </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido_seccion">
+            <h2>Skills</h2>
+
+                <div class="contenedor_intereses">
+                    <div class="interes">
+                        <img src="./imagenes/htlm.png" alt="icono Html5">
+                        <span>Html5</span>
+                    </div>
+                    <div class="interes">
+                        <img src="./imagenes/js_icon.png" alt="icono Javascript">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="interes">
+                        <img src="./imagenes/php_icon.png" alt="icono Php">
+                        <span>Php</span>
+                    </div>
+                    <div class="interes">
+                        <img src="./imagenes/nodejs_icon.png" alt="">
+                        <span>Node JS</span>
+                    </div>
+                    <div class="interes">
+                        <img src="./imagenes/react_icon.png" alt="">
+                        <span>React</span>
+                    </div>
+                    <div class="interes">
+                        <img src="./imagenes/css_icon.png" alt="">
+                        <span>css</span>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+     <!-- HOBBIES -->
+    <section class="hobbies" id="hobbies">
+        <div class="contenido_seccion">
+            <h2>Hobbies</h2>
+
+            <div class="contenedor_intereses">
+                <div class="interes">
+                    <img src="./imagenes/tv_icon.png" alt="icono tv">
+                    <span>Ver series</span>
+                </div>
+                <div class="interes">
+                    <img src="./imagenes/forkspoon_icon.png" alt="icono Php">
+                    <span>Cocinar</span>
+                </div>
+                <div class="interes">
+                    <img src="./imagenes/guitar_icon.png" alt="">
+                    <span>Oir Musica</span>
+                </div>
+        </div>
+    </section>
+
+    <!-- FORMACION -->
+    <section id="formacion" class="container">
+        <div class="contenido_formacion">
+            <h2>Formacion Academica</h2>
+
+            <div class="contenedor_formacion">
+                <div class="card">
+                    <figure>
+                        <img class="logoUnellez" src="./imagenes/logoUnellez.png" alt="logo Universidad">
+                    </figure>
+                    <div class="contenido">
+                    <p>Universidad Nacional Experimental de los Llanos Occidentales "Ezequiel Zamora”</p>
+                    <span>Cursando Ing.Informatica</span>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <figure>
+                        <img src="./imagenes/alura_logo.png" alt="icono tv">
+                    </figure>
+                    <div class="contenido">
+                     <p>Formacion Oracle One G4</p>
+                     <span>Cursando-2022</span>
+                    </div>
+                </div>
+             </div>
+    </section>
+    
+    <!-- PORTAFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido_seccion">
+            <h2>Experiencia Profesional</h2>
+            <div class="contenedor_encriptador">
+
+                    <img class="imagen1" src="./imagenes/encriptador texto.JPG" alt="">
+                
+                    <div class="resumen">
+                        <h3>Encriptador de texto</h3>
+                        <p>Challenge Alura codificador</p>
+
+                        <button>Repositorio <span class="overlay"></span></button>
+                        <button>Ver demo <span class="overlay"></span></button>
+                    </div>
+                    
+                </div>
+            </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido_seccion">
+            <h2>CONTACTO</h2>
+            <p>¿Quieres contactarme?<br>
+            Completa el siguiente formulario y me pondre en contacto con usted lo antes posible</p>
+            <div class="fila">
+
+                <img src="./imagenes/contact_image.png" alt="contacto">
+
+                <!-- Formulario -->
+                <form action="" class="form col" id="form" autocomplete="off">
+                        <div>
+                            <input type="text" id="nombre" placeholder="nombre" required>
+                        </div>
+                        
+                        <div>
+                         <input type="email" id="email" placeholder="E-mail" required data-tipo="email">
+                        </div>
+
+                        <div>
+                         <input type="text" id="asunto" placeholder="asunto" required>
+                        </div>
+
+                        <div>
+                         <textarea name="mensaje" id="mensaje" class="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        </div>
+                    
+                        
+                        <button type="submit">Enviar Mensaje
+                        <span class="overlay"></span></button>
+                    </div>
+                </form>
+
+                <div id="error"></div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+     <!-- FOOTER -->
+    <footer>
+        <p> Desarrollado por Jose Gabriel Rivas Gil<br> 
+            2023</p>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/validaciones.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

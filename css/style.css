@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#error {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+/* RESPONSIVE */
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav_responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #EDEDED;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #000;
+        padding: 10px 0;
+    }
+
+    .portfolio .contenedor_encriptador{
+        text-align: center;
+        width: 100%;
+    }
+    .portfolio .contenedor_encriptador{
+        max-width: 80%;
+    }
+    .portfolio .contenedor_encriptador img{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Righteous';
+}
+    .inicio .contenido_inicio h1{
+        margin-top: auto;
+    }
+    .sobremi .filcontenido-seccion{
+        display: block;
+    }
+
+    .skills{
+        display: block;
+    }
+    .skills .fila .col{
+        width: 100%;
+    }
+    .skills .fila .col .barra-skill{
+        width: 100%;
+    }
+
+    .hobbies{
+    display: flex;
+    flex-wrap: wrap;      
+    }
+    .hobbies .contenedor_intereses .interes{
+        width: 100px;
+        height: 100px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0;
+    }
+    .formacion .contenedor_formacion{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .portfolio .contenedor_encriptador{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        
+    }
+    .portfolio .contenedor_encriptador{
+        max-width: 80%;
+    }
+    .portfolio .contenedor_encriptador img{
+        width: 100%;
+    }
+    .contacto .fila{
+        display: block;
+    }
+
+    .contacto .fila img{
+        display: none;
+    }
+
+    .contacto .fila .col{
+        width: 100%;
+    }
+}

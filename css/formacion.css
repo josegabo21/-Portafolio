@@ -1,0 +1,54 @@
+.container{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 30px 10px;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Righteous';
+}
+
+.contenedor_formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+	
+    max-width: 300px;
+
+    background-color: #EDEDED;
+    margin: 40px;
+    border-radius: 50px;
+    
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+.card img{
+	padding: 40px;
+	text-align: center;
+}
+
+.card .contenido{
+	padding: 15px;
+	text-align: center;
+}
+
+.card .contenido p{
+	color: #000;
+	font-size: 14px;
+}
+
+.card .contenido span{
+	color: #000;
+	font-size: 14px;
+}

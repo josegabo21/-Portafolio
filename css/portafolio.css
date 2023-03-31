@@ -1,0 +1,67 @@
+.portfolio{
+    background-color: #EDEDED;
+    color: #000;
+    padding: 50px 20px;
+}
+
+.portfolio h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Righteous';
+}
+
+
+.contenedor_encriptador{
+    display: flex;
+    margin: 50px;
+}
+
+.imagen1{
+    height: 280px;
+
+}
+
+.contenedor_encriptador .resumen{
+   text-align: center;
+   margin: 30px;
+}
+
+.contenedor_encriptador .resumen h3{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Righteous';
+ }
+
+ .contenedor_encriptador .resumen button{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Righteous';
+    cursor: pointer;
+    border: #fff;
+    background-color: #000;
+    border-radius: 30px;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+     
+ }
+
+ .contenedor_encriptador .resumen button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 0;
+}
+.contenedor_encriptador .resumen button:hover .overlay{
+    width: 100%;
+    border-radius: 30px;
+}

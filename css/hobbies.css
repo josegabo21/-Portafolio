@@ -1,0 +1,39 @@
+.hobbies{
+    background-color: #EDEDED;
+    color: #000;
+    padding: 50px 20px;
+}
+
+.hobbies h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Righteous';
+}
+
+.hobbies .contenido_seccion .contenedor_intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies .contenido_seccion .contenedor_intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin: 45px 110px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0;
+}
+
+.hobbies .contenido_seccion .contenedor_intereses .interes:hover{
+    background-color: #1CB698;
+}
+.hobbies .contenido_seccion .contenedor_intereses .interes img{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
